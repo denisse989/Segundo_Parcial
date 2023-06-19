@@ -9,10 +9,10 @@ export const SettingsPage = () => {
     const [ theme, setTheme ] = useState("")
     const dispatch = useDispatch();
   const dark = () => {
-    //dispatch({ type: types.dark });    
+    dispatch({ type: types.dark });    
   };
   const ligth = () => {
-   // dispatch({ type: types.ligth });    
+   dispatch({ type: types.ligth });    
   };
 
   return (
